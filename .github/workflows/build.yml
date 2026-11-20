@@ -60,7 +60,8 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.p12"
+          echo "keystore b64 length: $(printf '%s' "$KEYSTORE_BASE64" | tr -d '[:space:]' | wc -c)"
+          printf '%s' "$KEYSTORE_BASE64" | tr -d '[:space:]' | base64 -d > "$RUNNER_TEMP/release.p12"
           V="${{ steps.ver.outputs.name }}"
           apksigner sign --ks "$RUNNER_TEMP/release.p12" \
             --ks-key-alias "$KEY_ALIAS" \
