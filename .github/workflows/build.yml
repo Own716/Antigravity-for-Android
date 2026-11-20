@@ -55,14 +55,27 @@ jobs:
 
       - name: Sign with the release key (from Secrets)
         env:
-          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KS1: ${{ secrets.KS_B64_1 }}
+          KS2: ${{ secrets.KS_B64_2 }}
+          KS3: ${{ secrets.KS_B64_3 }}
+          KS4: ${{ secrets.KS_B64_4 }}
+          KS5: ${{ secrets.KS_B64_5 }}
+          KS6: ${{ secrets.KS_B64_6 }}
+          KS7: ${{ secrets.KS_B64_7 }}
+          KS8: ${{ secrets.KS_B64_8 }}
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo "keystore b64 length: $(printf '%s' "$KEYSTORE_BASE64" | tr -d '[:space:]' | wc -c)"
-          printf '%s' "$KEYSTORE_BASE64" | tr -d '[:space:]' | base64 -d > "$RUNNER_TEMP/release.p12"
-          sha256sum "$RUNNER_TEMP/release.p12"
+          B64=""
+          for i in 1 2 3 4 5 6 7 8; do
+            v="$(eval "printf '%s' \"\$KS$i\"" | tr -d '[:space:]')"
+            echo "chunk $i sha256: $(printf '%s' "$v" | sha256sum | cut -d' ' -f1)"
+            B64="$B64$v"
+          done
+          echo "keystore b64 length: $(printf '%s' "$B64" | wc -c)"
+          printf '%s' "$B64" | base64 -d > "$RUNNER_TEMP/release.p12"
+          echo "75101d56937a75b2aca26abea3fa3f36ba7755cafdfea1e8ee6500ec667ccbde  $RUNNER_TEMP/release.p12" | sha256sum -c -
           V="${{ steps.ver.outputs.name }}"
           apksigner sign --ks "$RUNNER_TEMP/release.p12" \
             --ks-key-alias "$KEY_ALIAS" \
