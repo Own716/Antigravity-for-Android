@@ -42,9 +42,10 @@ jobs:
       - name: Read version
         id: ver
         run: |
-          . config/app.env
-          echo "name=$APP_VERSION_NAME" >> "$GITHUB_OUTPUT"
-          echo "Building OwnAgy $APP_VERSION_NAME ($APP_VERSION_CODE)"
+          V=$(grep '^APP_VERSION_NAME=' config/app.env | head -1 | cut -d= -f2)
+          C=$(grep '^APP_VERSION_CODE=' config/app.env | head -1 | cut -d= -f2)
+          echo "name=$V" >> "$GITHUB_OUTPUT"
+          echo "Building OwnAgy $V ($C)"
 
       - name: Build standard edition
         run: bash build.sh
