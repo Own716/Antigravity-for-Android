@@ -12,27 +12,18 @@
 
 ## 推荐服务与账号资源
 
-以下内容为社区资源推荐，方便有需要的用户自行了解。推荐服务均由第三方独立运营，与 OwnAgy 项目无隶属、担保或联合运营关系。
+以下内容为社区资源推荐，方便有需要的用户自行了解。推荐服务均由第三方独立运营，与 OwnAgy 项目无隶属、担保或联合运营关系。账号资源提供 TG 账号、Apple ID、TikTok、X 等多种类型，具体库存、地区、价格与交付方式以对应平台页面为准。
 
-### 机场推荐
-
-| 服务 | 说明 | 注册入口 | 套餐详情 |
-| :--- | :--- | :--- | :--- |
-| **吹雪云** | 第三方网络服务 · 邀请注册入口 | [注册入口](https://xn--9kqs1lo79d.com/#/register?code=A6m5cmqx) | [套餐详情](https://t.me/KarenOwn/225) |
-| **Kitty Network** | 第三方网络服务 · 邀请注册入口 | [注册入口](https://kitty.do/register?invite=zAVUhvIu) | [套餐详情](https://t.me/KarenOwn/22) |
-| **一分机场** | 第三方网络服务 · 邀请注册入口 | [注册入口](https://xn--4gqx1hgtfdmt.com/#/register?code=abupDu6P) | [套餐详情](https://t.me/KarenOwn/45) |
-| **NIVA** | 第三方网络服务 · 邀请注册入口 | [注册入口](https://niva.lol/r/OwnBox) | [套餐详情](https://t.me/KarenOwn/148) |
+| 名称 | 入口 |
+| :--- | :--- |
+| **吹雪云** | [注册](https://xn--9kqs1lo79d.com/#/register?code=A6m5cmqx) · [套餐详情](https://t.me/KarenOwn/225) |
+| **Kitty Network** | [注册](https://kitty.do/register?invite=zAVUhvIu) · [套餐详情](https://t.me/KarenOwn/22) |
+| **一分机场** | [注册](https://xn--4gqx1hgtfdmt.com/#/register?code=abupDu6P) · [套餐详情](https://t.me/KarenOwn/45) |
+| **NIVA** | [注册](https://niva.lol/r/OwnBox) · [套餐详情](https://t.me/KarenOwn/148) |
+| **账号资源 · 低价平台** | [访问 tgttgg.cc.cd](https://tgttgg.cc.cd/) |
+| **账号资源 · 更多种类** | [访问 own.maitg.com](https://own.maitg.com/) |
 
 > **购买提示：** 服务内容、套餐价格、节点信息、可用性与退款规则均以服务商页面公布的信息为准。购买前请自行阅读套餐详情、服务条款和隐私政策，并评估持续订阅及跨境网络服务的相关风险。OwnAgy 不参与第三方服务的交付、收费或售后。
-
-### 账号资源
-
-提供 TG 账号、Apple ID、TikTok、X 等账号资源，涵盖多种类型；具体库存、地区、价格与交付方式以对应平台页面为准。
-
-| 平台 | 说明 | 地址 |
-| :--- | :--- | :--- |
-| **低价平台** | 账号资源与商品信息 | [访问 tgttgg.cc.cd](https://tgttgg.cc.cd/) |
-| **更多种类** | 更多类型的账号资源 | [访问 own.maitg.com](https://own.maitg.com/) |
 
 > **风险提示：** 购买或使用第三方账号可能涉及账号来源、原始持有人找回、地区限制、实名要求、平台封禁及售后争议等风险。请先核实商品描述与平台规则，不要购买或使用来源不明、未经授权或违反目标平台服务条款的账号。以上平台与 OwnAgy 项目独立运营。
 
