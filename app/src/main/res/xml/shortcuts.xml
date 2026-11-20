@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="export_diagnostics"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher_dark"
+        android:shortcutShortLabel="@string/shortcut_diag_short"
+        android:shortcutLongLabel="@string/shortcut_diag_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.qin.agy"
+            android:targetClass="com.agy.ui.DiagnosticsActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
