@@ -20,10 +20,10 @@ import manifest_verifier
 import pipeline
 
 # Expected SHA-256 of the patched core binaries.
-# Core 2.33.0 (updated 2026-11-20): patched with the modules/patches pipeline
-# with the failfast group skipped (Go 1.26 restructured its signatures).
-TARGET_SHA_FULL = "0485d7aa08d0d403df6e71dfd9cf9aeeffff214cf35ead86e494c96808bddb1b"
-TARGET_SHA_NO_BYPASS = "620d4605bff5e662789809b6d25f0231dfd5fe992bd6ba754078405944ec7ed2"
+# Core 2.34.0 (updated 2026-11-23): patched with the modules/patches pipeline
+# with the failfast group skipped (Go 1.28 restructured its signatures).
+TARGET_SHA_FULL = "5c0a76ea4ae92b0f4de38148f9792b12d39f69764852a653b6f5860b99314438"
+TARGET_SHA_NO_BYPASS = "0fae7fa32d313c0f8c5a760a0303681f3f19ec226f3e48f5eae84a6a599bbeff"
 DEFAULT_DEST = "/data/user/0/com.agy/files/standalone_runtime"
 
 def prepare(dest_runtime_dir: str = DEFAULT_DEST, no_bypass: bool = False) -> bool:

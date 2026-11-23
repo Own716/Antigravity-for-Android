@@ -40,7 +40,7 @@
         "cpu": 1,
         "atomic": 1
       },
-      "note": "Skipped for core 2.33 (Go 1.26 restructured both target sequences); see pipeline --skip-failfast. ARMv8.0-A CPUs without LSE atomics are not covered."
+      "note": "Skipped for core 2.33 (Go 1.26 restructured both target sequences) and core 2.34 (Go 1.28); see pipeline --skip-failfast. ARMv8.0-A CPUs without LSE atomics are not covered."
     },
     {
       "name": "pty_shell",
