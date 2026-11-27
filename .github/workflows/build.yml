@@ -111,7 +111,7 @@ jobs:
             OwnAgy-*.apk
             SHA256SUMS.txt
           body: |
-            OwnAgy ${{ steps.ver.outputs.name }}（官方核心 2.35.2）
+            OwnAgy ${{ steps.ver.outputs.name }}（官方核心 2.36.0）
 
             | 文件 | 说明 |
             | :--- | :--- |
